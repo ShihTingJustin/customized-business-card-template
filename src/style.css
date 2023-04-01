@@ -1,0 +1,110 @@
+/*General Settings Start*/
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+.clearfix::after{
+    display: block;
+    clear: both;
+    content:"";
+}
+
+.mt-5{
+    margin-top: 3rem !important;
+}
+
+.container{
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
+/*General Settings End*/
+
+.my-card{
+    padding: 1.5rem;
+    border: 1px solid #dee2e6
+}
+
+.my-card__img{
+    padding-right: 1rem;
+    border-radius: .25rem;
+    float: right;
+}
+
+.my-name{
+    text-transform: uppercase;
+    font-size: 1.75rem;
+}
+
+.experience h6{
+    font-size: 1rem;
+}
