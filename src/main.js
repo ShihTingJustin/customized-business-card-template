@@ -27,8 +27,7 @@ myCard.innerHTML = `
     <p class="info">${profile.info}</p>
     <div class="experience text-mute">
       <h6>Experience</h6>
-      <ul class="list-unstyled small">
-        ${experiencesText}
+      <ul class="small">
       </ul>
     </div>
 `;
