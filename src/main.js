@@ -3,12 +3,7 @@ const profile = {
   name: "Sam Lin",
   avatar: "https://avatars2.githubusercontent.com/u/3960142?s=400&v=4",
   info: "Hi, this is Sam Lin!",
-  experiences: [
-    "Project manager @pubGame",
-    "Web #10 @Alpha Camp",
-    "Software Enginner @GGV",
-    "Software Engineer @Crypto.com",
-  ],
+  experiences: [],
 };
 
 // 選出 .my-card 節點做容器
